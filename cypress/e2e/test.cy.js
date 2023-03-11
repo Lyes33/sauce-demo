@@ -6,6 +6,7 @@ describe('Test suite sauce demo', () => {
   })
 
   it('Varifier la présence des éléments sur la page sauce demo', () => {
+    //Vérifier
     cy.get('.login_logo').should('be.visible').and('contain.text', 'Swag Labs')
     cy.get('[data-test="login-button"]').should('be.visible').and('be.enabled')
     
