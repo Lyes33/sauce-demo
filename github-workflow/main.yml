@@ -10,7 +10,7 @@ permission:
 concurrency:
   group: pages
   cancel-in-progress: true
-job:
+jobs:
   deploy:
     run-on: ubuntu-latest
     steps:
