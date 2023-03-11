@@ -46,7 +46,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: install
-        run: npm insall
+        run: npm install
       - name: run test
         run: npm run cy:ci:run
       - name: upload html reports
