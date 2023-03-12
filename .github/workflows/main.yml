@@ -47,12 +47,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: install
-        run: npm install cypress
+        run: npm install
       - name: Set permissions
         run: |
           chmod -R 777 cypress  
       - name: run test
-        run: npm run cy:ci:run
+        run: npm run cy:ci
       - name: upload html reports
         if: always()
         uses: actions/upload-pages-artifact@v1

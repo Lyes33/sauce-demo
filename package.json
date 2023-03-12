@@ -6,7 +6,7 @@
   "scripts": {
     "cy:open": "cypress open --e2e --browser chrome --config baseUrl=http://192.168.227.1:8081/",
     "cy:run": "cypress run --e2e --browser chrome --config baseUrl=http://192.168.227.1:8081/",
-    "cy:ci:run": "cypress run --e2e --browser chrome --config baseUrl=https://lyes33.github.io/sauce-demo/"
+    "cy:ci": "cypress run --e2e --browser chrome --config baseUrl=https://lyes33.github.io/sauce-demo/"
   },
   "keywords": [],
   "author": "",
