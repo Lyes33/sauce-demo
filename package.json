@@ -4,9 +4,8 @@
   "description": "projet sauce démo",
   "main": "index.js",
   "scripts": {
-    "cy:open": "cypress open --e2e --browser chrome --config baseUrl=https://www.saucedemo.com/",
-    "cy:run": "cypress run --e2e --browser chrome --config baseUrl=https://www.saucedemo.com/", 
-    "cy:ci:run": "cypress run --e2e --browser chrome --config baseUrl=https://lyes33.github.io/sauce-demo/"
+    "cy:open": "cypress open --e2e --browser chrome --config baseUrl=https://stg2-fr.rajapack.xyz/",
+    "cy:run": "cypress run --e2e --browser chrome --config baseUrl=https://stg2-fr.rajapack.xyz/"
   },
   "keywords": [],
   "author": "",
