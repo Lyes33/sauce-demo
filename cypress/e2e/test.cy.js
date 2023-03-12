@@ -2,7 +2,7 @@
 
 describe('Test suite sauce demo', () => {
   beforeEach(()=>{
-    cy.visit('http://192.168.227.1:8081/')
+    cy.visit('/')
   })
 
   it('Varifier la présence des éléments sur la page sauce demo', () => {
