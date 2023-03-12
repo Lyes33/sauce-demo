@@ -40,8 +40,6 @@ jobs:
         uses: actions/deploy-pages@v1
 
   test:
-    container:
-      options: --user 1001
     runs-on: ubuntu-latest
     needs: deploy
     
