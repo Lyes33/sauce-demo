@@ -48,8 +48,9 @@ jobs:
         uses: actions/checkout@v3
       - name: install
         run: npm install
-      - name: Reclaim cache directory
-        run: chown -R 1001:1001 /github/home/.cache && echo "pwn dat cache"
+      - name: Set permissions
+        run: |
+          chmod -R 777 cypress  
       - name: run test
         run: npm run cy:ci:run
       - name: upload html reports
