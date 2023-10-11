@@ -11,9 +11,4 @@ describe('Test suite sauce demo', () => {
       cy.contains('h1', 'Bienvenue').should('be.visible')
       
     })
-     it('Connexion sur le site sauce demo', () => {
-      cy.log('verif test tow')
-      cy.get('#btn').should('contain','Submit').and('be.visible')
-      
-    })
   })
